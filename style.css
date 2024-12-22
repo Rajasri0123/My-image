@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+h1{
+    color: #333;
+}
+
+profile {
+    display: inline-block;
+    margin: 20px;
+}
+
+.profile img:hover {
+    transform: scale(1.1);
+}
+
+.profile.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
